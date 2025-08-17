@@ -7,10 +7,10 @@
 #define GAS_PIN D6
 #define BUZZER_PIN D7
 
-const char* ssid = "YOUR_WIFI";
-const char* password = "YOUR_PASS";
-#define BOT_TOKEN "YOUR_BOT_TOKEN"
-#define CHAT_ID "YOUR_CHAT_ID"
+const char* ssid = "incognito!";
+const char* password = "@incognito123";
+#define BOT_TOKEN "8386065654"
+#define CHAT_ID "1588243799"
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
